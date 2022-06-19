@@ -45,6 +45,7 @@ object Versions {
     val nav = "2.0.0"
     val room = "2.3.0"
     val recyclerview = "1.0.0"
+    val fastAdapter = "5.6.0"
     val safeArgs = "1.1.1"
     val glide = "4.12.0"
     val archCoreTest = "2.0.0"
@@ -87,6 +88,10 @@ object AndroidLibraries {
     val lifecycleCompiler = "androidx.lifecycle:lifecycle-compiler:${Versions.lifecycle}"
     val lifecycleExtensions = "androidx.lifecycle:lifecycle-extensions:${Versions.lifecycle}"
     val recyclerView = "androidx.recyclerview:recyclerview:${Versions.recyclerview}"
+    val fastAdapter = "com.mikepenz:fastadapter:${Versions.fastAdapter}"
+    val fastAdapterBinding = "com.mikepenz:fastadapter-extensions-binding:${Versions.fastAdapter}"
+    val fastAdapterDiff = "com.mikepenz:fastadapter-extensions-diff:${Versions.fastAdapter}"
+    val fastAdapterUtils = "com.mikepenz:fastadapter-extensions-utils:${Versions.fastAdapter}"
     val navigation = "androidx.navigation:navigation-ui-ktx:${Versions.nav}"
     val navigationFrag = "androidx.navigation:navigation-fragment-ktx:${Versions.nav}"
 }

@@ -8,6 +8,17 @@
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.stockbit.hiring.ui.login.LoginFragment"
-        android:label="@string/login" />
+        android:label="@string/login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_searchUserFragment_to_userDetailFragment"
+            app:destination="@id/watchlistFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/watchlistFragment"
+        android:name="com.stockbit.hiring.ui.watchlist.WatchlistFragment"
+        android:label="@string/watchlist"
+        tools:layout="@layout/fragment_watchlist" />
 
 </navigation>

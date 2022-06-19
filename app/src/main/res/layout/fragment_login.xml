@@ -92,6 +92,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/username_or_email"
+                android:textSize="16sp"
                 android:maxLength="100"
                 android:singleLine="true"
                 android:text="@={viewModel.usernameEmail}" />
@@ -115,6 +116,7 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/password"
                 android:text="@={viewModel.password}"
+                android:textSize="16sp"
                 android:inputType="textPassword"
                 android:singleLine="true"
                 android:maxLength="50" />

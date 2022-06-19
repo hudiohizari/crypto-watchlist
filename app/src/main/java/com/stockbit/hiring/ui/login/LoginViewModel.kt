@@ -1,9 +1,8 @@
 package com.stockbit.hiring.ui.login
 
-import android.util.Log
 import android.view.View
 import androidx.lifecycle.MutableLiveData
-import com.stockbit.common.ResourcesProvider
+import com.stockbit.common.provider.ResourcesProvider
 import com.stockbit.common.base.BaseViewModel
 import com.stockbit.common.extension.toast
 import com.stockbit.common.utils.ValidatorInput.INPUT_PASSWORD_MIN
@@ -34,8 +33,6 @@ class LoginViewModel(
             passwordError,
             INPUT_PASSWORD_MIN
         )
-        Log.e("checkButton", "usernameEmailOk = $usernameEmailOk")
-        Log.e("checkButton", "passwordOk = $passwordOk")
         val enabled = usernameEmailOk && passwordOk
         isButtonEnabled.postValue(enabled)
     }
@@ -57,7 +54,7 @@ class LoginViewModel(
 
     @Suppress("unused")
     fun View.onClickedLogin() {
-        context.toast("onClickedLogin")
+        navigate(LoginFragmentDirections.actionSearchUserFragmentToUserDetailFragment())
     }
 
     @Suppress("unused")

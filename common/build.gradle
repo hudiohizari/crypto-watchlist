@@ -1,10 +1,21 @@
 apply plugin: 'com.android.library'
 apply from: '../android_commons.gradle'
 
+android {
+    dataBinding {
+        enabled true
+    }
+}
+
 dependencies {
     implementation AndroidLibraries.appCompat
     implementation AndroidLibraries.navigation
     implementation AndroidLibraries.navigationFrag
+    implementation AndroidLibraries.constraintLayout
+    implementation AndroidLibraries.fastAdapter
+    implementation AndroidLibraries.fastAdapterBinding
+    implementation AndroidLibraries.fastAdapterDiff
+    implementation AndroidLibraries.fastAdapterUtils
     implementation project(Modules.navigation)
     implementation Libraries.koin
 }

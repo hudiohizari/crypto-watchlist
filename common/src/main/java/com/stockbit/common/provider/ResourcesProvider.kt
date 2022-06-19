@@ -1,4 +1,4 @@
-package com.stockbit.common
+package com.stockbit.common.provider
 
 import android.content.Context
 import androidx.annotation.StringRes

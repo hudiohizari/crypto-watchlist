@@ -25,7 +25,6 @@ dependencies {
     implementation Libraries.koin
     implementation Libraries.koinViewModel
     // ANDROID
-    implementation AndroidLibraries.constraintLayout
     implementation AndroidLibraries.appCompat
     implementation AndroidLibraries.navigation
     implementation AndroidLibraries.navigationFrag
