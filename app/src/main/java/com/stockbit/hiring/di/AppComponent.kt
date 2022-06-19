@@ -1,5 +1,6 @@
 package com.stockbit.hiring.di
 
+import com.stockbit.common.di.resourceModule
 import com.stockbit.local.di.localModule
 import com.stockbit.remote.BuildConfig
 import com.stockbit.remote.di.createRemoteModule
@@ -9,5 +10,6 @@ val appComponent = listOf(
     createRemoteModule(BuildConfig.BASE_URL),
     repositoryModule,
     localModule,
-    viewModelModule
+    viewModelModule,
+    resourceModule
 )

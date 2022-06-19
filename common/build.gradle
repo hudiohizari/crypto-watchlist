@@ -6,4 +6,5 @@ dependencies {
     implementation AndroidLibraries.navigation
     implementation AndroidLibraries.navigationFrag
     implementation project(Modules.navigation)
+    implementation Libraries.koin
 }

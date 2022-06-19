@@ -1,45 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc987f6c-1bfa-46ce-ac45-137677d484cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/local/src/main/java/com/stockbit/local/dao/CoinDao.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/CoinInfoModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/CoinModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/CurrencyModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/CurrencyXModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/DisplayModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/MetaDataModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/RateLimitModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/RatingModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/RawModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/WeissModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/list/CoinListModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/response/GetCoinsResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/remote/env.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/remote/src/main/java/com/stockbit/remote/MainService.kt" afterDir="false" />
+    <list default="true" id="bc987f6c-1bfa-46ce-ac45-137677d484cc" name="Changes" comment="Map remote and response">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_facebook.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_google.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/button_loading.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/button_loading_outline.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/button_loading_with_image.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/stockbit/common/ResourcesProvider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/stockbit/common/di/ResourceModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/stockbit/common/extension/ContextExt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/stockbit/common/extension/TextViewExt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/stockbit/common/utils/ValidatorInput.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/res/color/button_outline_stroke_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/res/color/button_outline_text_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/res/color/button_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/res/color/button_text_selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/stockbit/hiring/di/AppComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/stockbit/hiring/di/AppComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/stockbit/hiring/di/ViewModelModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/stockbit/hiring/di/ViewModelModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/stockbit/hiring/ui/login/LoginFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/stockbit/hiring/ui/login/LoginFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/stockbit/hiring/ui/login/LoginViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/stockbit/hiring/ui/login/LoginViewModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common_test/src/main/java/com/stockbit/common_test/datasets/ExampleDataset.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common_test/src/main/java/com/stockbit/common_test/datasets/ExampleDataset.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/local/src/main/java/com/stockbit/local/AppDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/local/src/main/java/com/stockbit/local/AppDatabase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/local/src/main/java/com/stockbit/local/dao/ExampleDao.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/local/src/main/java/com/stockbit/local/di/LocalModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/local/src/main/java/com/stockbit/local/di/LocalModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/ExampleModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/remote/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/data/remote/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/remote/src/main/java/com/stockbit/remote/ExampleDatasource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/remote/src/main/java/com/stockbit/remote/MainDatasource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/remote/src/main/java/com/stockbit/remote/ExampleService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/remote/src/main/java/com/stockbit/remote/di/RemoteModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/remote/src/main/java/com/stockbit/remote/di/RemoteModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/repository/src/main/java/com/stockbit/repository/ExampleRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/repository/src/main/java/com/stockbit/repository/MainRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/repository/src/main/java/com/stockbit/repository/di/RepositoryModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/repository/src/main/java/com/stockbit/repository/di/RepositoryModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/repository/src/main/java/com/stockbit/repository/utils/Resource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/repository/src/main/java/com/stockbit/repository/utils/Resource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/stockbit/common/base/BaseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/stockbit/common/base/BaseFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,22 +74,39 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Object" />
         <option value="Kotlin Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="2AmnwyetbuMO81DDzcqohM00Rom" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/remote" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/src/main/java/com/stockbit/common/extension" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hhiza\Documents\AndroidStudio\Stockbit Test\data\remote" />
+      <recent name="C:\Users\hhiza\Documents\AndroidStudio\Stockbit Test\common\src\main\java\com\stockbit\common\extension" />
+      <recent name="C:\Users\hhiza\Documents\AndroidStudio\Stockbit Test\common\src\main\res\color" />
+      <recent name="C:\Users\hhiza\Documents\AndroidStudio\Stockbit Test\app\src\main\res\layout" />
+      <recent name="C:\Users\hhiza\Documents\AndroidStudio\Stockbit Test\common\src\main\res\drawable" />
+      <recent name="C:\Users\hhiza\Documents\AndroidStudio\Stockbit Test\common\src\main\java\com\stockbit\common\di" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hhiza\Documents\AndroidStudio\Stockbit Test\app\src\main\res\color" />
       <recent name="C:\Users\hhiza\Documents\AndroidStudio\Stockbit Test\data\remote" />
       <recent name="C:\Users\hhiza\Documents\AndroidStudio\Stockbit Test\app" />
     </key>
@@ -154,7 +173,24 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Map remote and response">
+      <created>1655623788724</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655623788724</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc987f6c-1bfa-46ce-ac45-137677d484cc" name="Changes" comment="Map remote and response" />
+      <changelist id="" name="Unver" comment="" />
+      <created>1655623875850</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655623875850</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,5 +204,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Map remote and response" />
+    <option name="LAST_COMMIT_MESSAGE" value="Map remote and response" />
   </component>
 </project>

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Stockbit Example</string>
-    <string name="an_error_happened">An error happened, please retry !</string>
+    <string name="an_error_happened">An error happened, please retry!</string>
+    <string name="empty_text">Empty Text</string>
 </resources>
