@@ -27,7 +27,7 @@ object Versions {
     val compileSdk = 30
     val minSdk = 23
     val targetSdk = 30
-    val appCompat = "1.1.0-alpha02"
+    val appCompat = "1.3.0-alpha02"
     val coreKtx = "1.1.0"
     val constraintLayout = "1.1.3"
     val junit = "4.12"
@@ -84,6 +84,7 @@ object AndroidLibraries {
     val coreKtx = "androidx.core:core-ktx:${Versions.coreKtx}"
     val constraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
     val lifecycleViewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycle}"
+    val lifecycleCompiler = "androidx.lifecycle:lifecycle-compiler:${Versions.lifecycle}"
     val lifecycleExtensions = "androidx.lifecycle:lifecycle-extensions:${Versions.lifecycle}"
     val recyclerView = "androidx.recyclerview:recyclerview:${Versions.recyclerview}"
     val navigation = "androidx.navigation:navigation-ui-ktx:${Versions.nav}"
