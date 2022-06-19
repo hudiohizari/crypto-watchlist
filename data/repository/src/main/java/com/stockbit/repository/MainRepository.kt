@@ -15,18 +15,23 @@ interface MainRepository {
 class MainRepositoryImpl(
     private val dispatchers: AppDispatchers,
     private val datasource: MainDatasource,
-    private val dao: CoinListDao
+    private val coinDao: CoinListDao
     ): MainRepository {
+
+    companion object {
+        const val DEFAULT_LIMIT = 20
+    }
 
     override suspend fun getCoins(page: Int?): Flow<Resource<MutableList<CoinListModel>>> {
         return flow {
             emit(Resource.loading(null))
             try {
-                val result = datasource.fetchCoinsAsync(page)
+                val result = datasource.fetchCoinsAsync(page, DEFAULT_LIMIT)
                 if (result.isSuccessful) {
                     val cleanResponse = mutableListOf<CoinListModel>()
                     result.body()?.data?.forEach { cleanResponse.add(CoinListModel.convertFrom(it)) }
                     emit(Resource.success(cleanResponse))
+                    coinDao.save(cleanResponse)
                 } else emit(Resource.error(Throwable(result.body()?.message), null))
             } catch (e: Exception) {
                 emit(Resource.error(e, null))

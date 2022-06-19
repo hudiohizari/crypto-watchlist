@@ -12,9 +12,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc987f6c-1bfa-46ce-ac45-137677d484cc" name="Changes" comment="Setup UI and function for WatchlistFragment">
+    <list default="true" id="bc987f6c-1bfa-46ce-ac45-137677d484cc" name="Changes" comment="Tidy some code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/stockbit/hiring/ui/watchlist/WatchlistFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/stockbit/hiring/ui/watchlist/WatchlistFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/local/src/main/java/com/stockbit/local/dao/CoinDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/local/src/main/java/com/stockbit/local/dao/CoinDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/remote/src/main/java/com/stockbit/remote/MainDatasource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/remote/src/main/java/com/stockbit/remote/MainDatasource.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/repository/src/main/java/com/stockbit/repository/MainRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/repository/src/main/java/com/stockbit/repository/MainRepository.kt" afterDir="false" />
     </list>
     <list id="962becd4-b2c6-48ad-bd88-21260472ff56" name="Not needed" comment="">
@@ -237,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655654983242</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Enhance list at WatchlistFragment">
+      <created>1655657198559</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655657198559</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +266,8 @@
     <MESSAGE value="Setup button_loading_with_image" />
     <MESSAGE value="Prepare Fast Adapter" />
     <MESSAGE value="Setup UI and function for WatchlistFragment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup UI and function for WatchlistFragment" />
+    <MESSAGE value="Enhance list at WatchlistFragment" />
+    <MESSAGE value="Tidy some code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tidy some code" />
   </component>
 </project>

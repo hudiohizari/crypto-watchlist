@@ -7,14 +7,14 @@ import com.stockbit.model.list.CoinListModel
 @Dao
 abstract class CoinListDao: BaseDao<CoinListModel>() {
 
-    @Query("SELECT * FROM CoinListModel WHERE name = :name LIMIT 1")
-    abstract fun getExample(name: String): CoinListModel
+    @Query("SELECT * FROM CoinListModel LIMIT :limit OFFSET :offset")
+    abstract fun getCoins(limit: Int, offset: Int): MutableList<CoinListModel>
 
-    suspend fun save(data: CoinListModel) {
+    fun save(data: CoinListModel) {
         insert(data)
     }
 
-    suspend fun save(datas: List<CoinListModel>) {
+    fun save(datas: List<CoinListModel>) {
         insert(datas)
     }
 }
