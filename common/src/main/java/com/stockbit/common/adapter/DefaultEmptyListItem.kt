@@ -6,7 +6,7 @@ import com.mikepenz.fastadapter.binding.AbstractBindingItem
 import com.stockbit.common.databinding.ListItemEmptyDefaultBinding
 
 class DefaultEmptyListItem(
-    private val text: String
+    private val text: String? = null
 ) : AbstractBindingItem<ListItemEmptyDefaultBinding>(), DiffableListItemType {
 
     override fun itemIdentifier(): Any = this.hashCode()

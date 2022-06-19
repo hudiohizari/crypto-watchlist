@@ -2,10 +2,10 @@ package com.stockbit.remote
 
 class MainDatasource(private val mainService: MainService) {
 
-    fun fetchTopUsersAsync(
-        limit: Int?,
+    suspend fun fetchCoinsAsync(
         page: Int?,
-        currency: String? = "USD"
+        limit: Int? = 20,
+        currency: String? = "IDR"
     ) = mainService.fetchCoins(limit, page, currency)
 
 }

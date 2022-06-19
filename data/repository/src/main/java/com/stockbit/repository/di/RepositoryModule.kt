@@ -7,5 +7,5 @@ import org.koin.dsl.module
 
 val repositoryModule = module {
     factory { AppDispatchers(Dispatchers.Main, Dispatchers.IO) }
-    factory { MainRepositoryImpl(get(), get()) }
+    factory { MainRepositoryImpl(get(), get(), get()) }
 }

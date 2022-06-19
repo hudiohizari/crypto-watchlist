@@ -2,6 +2,8 @@ package com.stockbit.common.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import com.mikepenz.fastadapter.binding.AbstractBindingItem
+import com.stockbit.common.databinding.ListItemLoadMoreBinding
 
 class DefaultLoadMoreListItem(
     val listener: Listener

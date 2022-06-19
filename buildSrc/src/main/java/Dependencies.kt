@@ -24,9 +24,9 @@ object Releases {
 object Versions {
     val kotlin = "1.5.10"
     val gradle = "4.0.1"
-    val compileSdk = 30
+    val compileSdk = 31
     val minSdk = 23
-    val targetSdk = 30
+    val targetSdk = 31
     val appCompat = "1.3.0-alpha02"
     val coreKtx = "1.1.0"
     val constraintLayout = "1.1.3"
@@ -41,7 +41,7 @@ object Versions {
     val coroutines = "1.4.3"
     val koin = "2.0.1"
     val timber = "4.7.1"
-    val lifecycle = "2.2.0"
+    val lifecycle = "2.1.0"
     val nav = "2.0.0"
     val room = "2.3.0"
     val recyclerview = "1.0.0"
@@ -53,6 +53,7 @@ object Versions {
     val mockk = "1.11.0"
     val fragmentTest = "1.1.0-alpha06"
     val databinding = "3.3.2"
+    val swipeRefresh = "1.1.0"
 }
 
 object Libraries {
@@ -94,6 +95,7 @@ object AndroidLibraries {
     val fastAdapterUtils = "com.mikepenz:fastadapter-extensions-utils:${Versions.fastAdapter}"
     val navigation = "androidx.navigation:navigation-ui-ktx:${Versions.nav}"
     val navigationFrag = "androidx.navigation:navigation-fragment-ktx:${Versions.nav}"
+    val swipeRefreshLayout = "androidx.swiperefreshlayout:swiperefreshlayout:${Versions.swipeRefresh}"
 }
 
 object TestLibraries {

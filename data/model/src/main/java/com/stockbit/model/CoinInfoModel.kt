@@ -9,7 +9,7 @@ data class CoinInfoModel(
     @SerializedName("AssetLaunchDate")
     val assetLaunchDate: String?,
     @SerializedName("BlockNumber")
-    val blockNumber: Int?,
+    val blockNumber: Double?,
     @SerializedName("BlockReward")
     val blockReward: Double?,
     @SerializedName("BlockTime")

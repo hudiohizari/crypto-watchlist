@@ -28,4 +28,10 @@ dependencies {
     implementation AndroidLibraries.appCompat
     implementation AndroidLibraries.navigation
     implementation AndroidLibraries.navigationFrag
+    implementation AndroidLibraries.fastAdapter
+    implementation AndroidLibraries.fastAdapterBinding
+    implementation AndroidLibraries.fastAdapterUtils
+    implementation AndroidLibraries.swipeRefreshLayout
+    implementation AndroidLibraries.lifecycleViewModel
+    implementation AndroidLibraries.lifecycleExtensions
 }

@@ -3,6 +3,8 @@ package com.stockbit.common.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.mikepenz.fastadapter.binding.AbstractBindingItem
+import com.stockbit.common.databinding.ListItemReloadDefaultBinding
 
 class DefaultReloadListItem(
     val listener: Listener

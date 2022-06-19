@@ -8,7 +8,7 @@ import retrofit2.http.Query
 interface MainService {
 
     @GET("data/top/totaltoptiervolfull")
-    fun fetchCoins(
+    suspend fun fetchCoins(
         @Query("limit") limit: Int?,
         @Query("page") page: Int?,
         @Query("tsym") currency: String?

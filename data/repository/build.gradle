@@ -14,6 +14,8 @@ dependencies {
     // KOIN
     implementation Libraries.koin
     implementation Libraries.koinViewModel
+    // Remote
+    implementation Libraries.retrofit
     // TESTS
     testImplementation TestLibraries.junit
     testImplementation TestLibraries.mockk

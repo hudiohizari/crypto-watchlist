@@ -44,7 +44,7 @@
             android:layout_marginHorizontal="16dp"
             android:layout_marginBottom="16dp"
             android:text="@string/reload"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/colorTextDark"
             android:textAlignment="center"
             app:layout_constraintTop_toBottomOf="@id/cvReload"
             app:layout_constraintStart_toStartOf="parent"
