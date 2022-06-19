@@ -2,6 +2,16 @@ apply plugin: 'com.android.library'
 apply from: '../../android_commons.gradle'
 apply plugin: 'kotlin-kapt'
 
+android {
+    def envFile = file("env.properties")
+    Properties env = new Properties()
+    env.load(new FileInputStream(envFile))
+
+    defaultConfig {
+        buildConfigField "String", "BASE_URL", env["BASE_URL"]
+    }
+}
+
 dependencies {
     // KOTLIN
     implementation KotlinLibraries.kotlin

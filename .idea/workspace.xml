@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc987f6c-1bfa-46ce-ac45-137677d484cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/local/src/main/java/com/stockbit/local/dao/CoinDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/CoinInfoModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/CoinModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/CurrencyModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/CurrencyXModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/DisplayModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/MetaDataModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/RateLimitModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/RatingModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/RawModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/WeissModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/list/CoinListModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/response/GetCoinsResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/remote/env.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/remote/src/main/java/com/stockbit/remote/MainService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/stockbit/hiring/di/AppComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/stockbit/hiring/di/AppComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/stockbit/hiring/ui/login/LoginViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/stockbit/hiring/ui/login/LoginViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_test/src/main/java/com/stockbit/common_test/datasets/ExampleDataset.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common_test/src/main/java/com/stockbit/common_test/datasets/ExampleDataset.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/local/src/main/java/com/stockbit/local/AppDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/local/src/main/java/com/stockbit/local/AppDatabase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/local/src/main/java/com/stockbit/local/dao/ExampleDao.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/local/src/main/java/com/stockbit/local/di/LocalModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/local/src/main/java/com/stockbit/local/di/LocalModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/model/src/main/java/com/stockbit/model/ExampleModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/remote/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/data/remote/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/remote/src/main/java/com/stockbit/remote/ExampleDatasource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/remote/src/main/java/com/stockbit/remote/MainDatasource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/remote/src/main/java/com/stockbit/remote/ExampleService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/remote/src/main/java/com/stockbit/remote/di/RemoteModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/remote/src/main/java/com/stockbit/remote/di/RemoteModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/repository/src/main/java/com/stockbit/repository/ExampleRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/repository/src/main/java/com/stockbit/repository/MainRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/repository/src/main/java/com/stockbit/repository/di/RepositoryModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/repository/src/main/java/com/stockbit/repository/di/RepositoryModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/repository/src/main/java/com/stockbit/repository/utils/Resource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/repository/src/main/java/com/stockbit/repository/utils/Resource.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\hhiza\.android\avd\Pixel_5_API_32.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Stockbit Test" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/remote" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hhiza\Documents\AndroidStudio\Stockbit Test\data\remote" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hhiza\Documents\AndroidStudio\Stockbit Test\data\remote" />
+      <recent name="C:\Users\hhiza\Documents\AndroidStudio\Stockbit Test\app" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.stockbit.model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Stockbit_Test.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

@@ -1,6 +1,5 @@
 package com.stockbit.common_test.datasets
 
-import com.stockbit.model.ExampleModel
 import java.util.*
 
 object ExampleDataset {

@@ -32,4 +32,12 @@ data class Resource<out T>(val status: Status, val data: T?, val error: Throwabl
         ERROR,
         LOADING
     }
+
+    fun isLoading(): Boolean {
+        return status == Status.LOADING
+    }
+
+    fun isFailed(): Boolean {
+        return status == Status.ERROR
+    }
 }
