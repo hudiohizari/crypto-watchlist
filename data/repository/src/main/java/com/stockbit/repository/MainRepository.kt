@@ -21,13 +21,17 @@ class MainRepositoryImpl(
     override suspend fun getCoins(page: Int?): Flow<Resource<MutableList<CoinListModel>>> {
         return flow {
             emit(Resource.loading(null))
-            val result = datasource.fetchCoinsAsync(page)
-            if (result.isSuccessful) {
-                val cleanResponse = mutableListOf<CoinListModel>()
-                result.body()?.data?.forEach { cleanResponse.add(CoinListModel.convertFrom(it)) }
-                emit(Resource.success(cleanResponse))
-            } else emit(Resource.error(Throwable(result.body()?.message), null))
-        }
+            try {
+                val result = datasource.fetchCoinsAsync(page)
+                if (result.isSuccessful) {
+                    val cleanResponse = mutableListOf<CoinListModel>()
+                    result.body()?.data?.forEach { cleanResponse.add(CoinListModel.convertFrom(it)) }
+                    emit(Resource.success(cleanResponse))
+                } else emit(Resource.error(Throwable(result.body()?.message), null))
+            } catch (e: Exception) {
+                emit(Resource.error(e, null))
+            }
+        }.flowOn(dispatchers.io)
     }
 
 }

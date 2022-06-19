@@ -66,20 +66,23 @@ class WatchlistFragment : BaseFragment() {
                     Resource.Status.SUCCESS -> processFetchCoinsSuccess(res.data ?: mutableListOf())
                     Resource.Status.ERROR -> {
                         Log.e("fetchCoinsResponse", "Resources.Error = ${res.error?.message}")
-                        requireContext().toast("$res.error?.message")
+                        requireContext().toast("${res.error?.message}")
                         processFetchCoinsFailed()
                     }
                     else -> Log.e("fetchCoinsResponse", "Unhandled resource type")
                 }
             }
-            page.observe(viewLifecycleOwner) { viewModel.fetchCoins(it) }
+            page.observe(viewLifecycleOwner) {
+                if (it == 0) coins.clear()
+                viewModel.fetchCoins(it)
+            }
         }
     }
 
     private fun processFetchCoinsLoading() {
         if (viewModel.page.value == 0) {
             val items: MutableList<UnspecifiedTypeItem> = mutableListOf()
-            for (i in 0..5) {
+            for (i in 0..15) {
                 items.add(CoinLoadingListItem())
             }
             getCoinAdapter().performUpdates(items)
@@ -114,6 +117,7 @@ class WatchlistFragment : BaseFragment() {
 
     private fun processFetchCoinsFailed() {
         val items: MutableList<UnspecifiedTypeItem> = mutableListOf()
+        coins.forEach { items.add(CoinListItem(it)) }
         items.add(DefaultReloadListItem(object : DefaultReloadListItem.Listener {
             override fun reload() { viewModel.fetchCoins(viewModel.page.value) }
         }))
@@ -133,6 +137,7 @@ class WatchlistFragment : BaseFragment() {
     private fun getCoinAdapter(): FastItemAdapter<UnspecifiedTypeItem> {
         if (binding.adapter == null) {
             binding.adapter = FastItemAdapter()
+            binding.rvCoin.itemAnimator = null
         }
         return binding.adapter as FastItemAdapter
     }
